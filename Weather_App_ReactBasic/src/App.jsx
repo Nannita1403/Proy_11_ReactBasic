@@ -12,6 +12,7 @@ const App = () => {
         <Route path="/WeekForecast" element={<WeekForecast />}></Route>
         <Route path="*" element={<NotFound />}></Route>
       </Routes>
+      <Footer/>
     </div>
   )
 }
