@@ -38,9 +38,10 @@ body {
 #root::before {
   content: '';
   background: linear-gradient(
-    228deg,
-    rgba(140, 115, 191, 1) 0%,
-    rgba(55, 174, 164, 1) 100%
+    -225deg,
+    #5d9fff,
+    #b8dcff 48%,
+    #6bbbff
   );
   background-size: cover;
   background-position: center;
