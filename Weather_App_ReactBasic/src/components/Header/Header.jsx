@@ -1,9 +1,16 @@
 import { NavLink } from "react-router-dom"
 import "./Header.css"
+import companyLogo from "/public/assets/companyLogo.png"
 
 const Header = () => {
   return (
     <header>
+        <div className='companyName'>
+        <p>Weather App</p>
+        <div className='companylogoWrapper'>
+          <img src={companyLogo} alt='companyLogo'/>
+        </div>
+      </div>
         <nav>
             <ul>
                 <li>

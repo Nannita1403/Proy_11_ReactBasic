@@ -1,0 +1,52 @@
+header {
+    background-color: white;
+    height: 10svh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vw;
+    position: absolute;
+    width: 100%;
+}
+
+header nav {
+    width: 70%;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.active {
+    border-bottom: 3px solid black;
+}
+
+header a {
+    color: black;
+    font-size: 25px;
+}
+.companyName {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .companylogoWrapper {
+    width: 9vw;
+    height: auto;
+    display: flex;
+  }
+  
+  .companylogoWrapper > img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .companyName > p {
+    display: none;
+  }
