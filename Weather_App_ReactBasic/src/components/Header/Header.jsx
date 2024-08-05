@@ -28,10 +28,10 @@ const Header = () => {
   return (
     <div className="header">
         <div className='companyName'>
-        <p>Weather App</p>
         <div className='companylogoWrapper'>
           <img src={companyLogo} alt='companyLogo'/>
         </div>
+        <p>Open Weather Service</p>
         </div>
       <CityFilter />
       {windowWidth >= 1023 ? (

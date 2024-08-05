@@ -1,6 +1,7 @@
 .header {
     width: 100vw;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 1vw;
@@ -19,7 +20,7 @@
   
   .companyName {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -35,7 +36,8 @@
   }
   
   .companyName > p {
-    display: none;
+    display: flex;
+    align-content: center;
   }
   
   @media screen and (min-width: 1023px) {
