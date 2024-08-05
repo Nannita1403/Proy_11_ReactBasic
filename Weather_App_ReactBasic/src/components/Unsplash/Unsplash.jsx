@@ -1,7 +1,7 @@
 // Unsplash.jsx
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import Spinner from '../Spinner'
+import Spinner from '../Spinner/Spinner'
 import { API_KEY } from './Unsplash_key'
 
 const UnsplashPhotos = ({ query }) => {
