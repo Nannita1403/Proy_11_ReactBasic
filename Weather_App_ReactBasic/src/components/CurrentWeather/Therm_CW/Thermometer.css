@@ -1,4 +1,7 @@
 .thermometer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 28px;
     height: 120px;
     background: linear-gradient(
@@ -14,35 +17,14 @@
     border-radius: 50px;
   }
   
-  .minTemp,
-  .feelsLike,
-  .maxTemp {
-    width: 100%;
-    height: 2px;
-    background-color: #333;
-    position: absolute;
-    left: 20px;
-  }
-  
-  .minTemp {
-    bottom: 20px;
-  }
   .minText {
     bottom: 20px;
     font-size: 4vw;
   }
   
-  .feelsLike {
-    bottom: 60px;
-  }
-  
   .feelsText {
     bottom: 60px;
     font-size: 4vw;
-  }
-  
-  .maxTemp {
-    top: 20px;
   }
   
   .maxText {
@@ -52,9 +34,10 @@
   
   .temperature {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 10px;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 12px;
     margin-left: 45px;
     padding: 0 5px;
     font-weight: bold;
@@ -79,25 +62,14 @@
       height: 200px;
     }
   
-    .minTemp {
-      bottom: 20px;
-    }
     .minText {
       bottom: 15px;
       font-size: 1.5vw;
     }
   
-    .feelsLike {
-      bottom: 100px;
-    }
-  
     .feelsText {
       bottom: 95px;
       font-size: 1.5vw;
-    }
-  
-    .maxTemp {
-      top: 20px;
     }
   
     .maxText {

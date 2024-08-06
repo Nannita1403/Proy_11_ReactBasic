@@ -36,8 +36,7 @@
   }
   
   .companyName > p {
-    display: flex;
-    align-content: center;
+    display: none
   }
   
   @media screen and (min-width: 1023px) {

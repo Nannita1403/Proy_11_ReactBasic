@@ -35,10 +35,9 @@ body {
 #root::before {
   content: '';
   background: linear-gradient(
-    -225deg,
-    #5d9fff,
-    #b8dcff 48%,
-    #6bbbff
+    228deg,
+    rgba(140, 115, 191, 1) 0%,
+    rgba(55, 174, 164, 1) 100%
   );
   background-size: cover;
   background-position: center;

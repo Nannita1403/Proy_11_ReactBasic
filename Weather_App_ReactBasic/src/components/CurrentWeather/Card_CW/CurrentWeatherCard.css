@@ -1,8 +1,8 @@
 .cityCardContainer {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
     width: 85vw;
     height: 65vh;
     border-radius: 5px;
@@ -22,7 +22,9 @@
     padding: 5px;
   }
   
-  
+  .cityTitle > * {
+    background-color: rgba(225, 223, 223, 0.69);
+  }
   
   .cityTitle > h2 {
     font-size: 7vw;
@@ -67,7 +69,9 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 0.5vw;
+    gap: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
   }
   
   .weatherInfo {
@@ -77,6 +81,7 @@
     flex-direction: column;
     justify-content: flex;
     align-items: center;
+    gap: 5vw;
   }
   
   .otherWeatherInfo {
