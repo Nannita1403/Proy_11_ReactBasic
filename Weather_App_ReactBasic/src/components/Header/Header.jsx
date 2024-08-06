@@ -31,7 +31,7 @@ const Header = () => {
         <div className='companylogoWrapper'>
           <img src={companyLogo} alt='companyLogo'/>
         </div>
-        <p>Open Weather Service</p>
+        <p>Chakra Weather</p>
         </div>
       <CityFilter />
       {windowWidth >= 1023 ? (
