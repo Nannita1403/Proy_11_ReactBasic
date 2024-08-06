@@ -137,9 +137,9 @@ const CurrentWeatherCard = ({ loading, weather, children }) => {
             feelsLike={(weather.main.feels_like - 273.15).toFixed(1)}
           />
           <div className='otherWeatherInfo'>
-            <p>Humidity: {weather.main.humidity}%</p>
-            <p>Visibility: {weather.visibility / 1000} km</p>
-            <p>Wind Speed: {weather.wind.speed} m/s</p>
+            <p>Humedad: {weather.main.humidity}%</p>
+            <p>Visibilidad: {weather.visibility / 1000} km</p>
+            <p>Viento: {weather.wind.speed} m/s</p>
           </div>
         </div>
       </div>

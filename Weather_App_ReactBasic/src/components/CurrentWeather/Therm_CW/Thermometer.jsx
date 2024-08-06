@@ -12,7 +12,7 @@ const Thermometer = ({ minTemperature, maxTemperature, feelsLike }) => {
           Maxima: <em>{maxTemperature}</em> °C
         </span>
         <span className='feelsText'>
-          Sensación Termica: <em>{feelsLike}</em> °C
+          S.Termica: <em>{feelsLike}</em> °C
         </span>
         <span className='minText'>
           Minima: <em>{minTemperature}</em> °C

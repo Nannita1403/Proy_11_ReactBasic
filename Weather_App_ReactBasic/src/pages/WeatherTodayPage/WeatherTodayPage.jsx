@@ -1,9 +1,10 @@
+import WeatherToday from "../../components/WeatherToday/Location_WT/WeatherToday"
 import "./WeatherTodayPage.css"
 
 const WeatherTodayPage = () => {
   return (
-    <div>
-      Weather Today
+    <div className="weatherToday">
+      <WeatherToday/>
     </div>
   )
 }
