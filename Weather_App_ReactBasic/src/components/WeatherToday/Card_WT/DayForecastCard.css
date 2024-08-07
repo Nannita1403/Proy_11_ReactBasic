@@ -1,10 +1,12 @@
+
 .ForecastCardContainer {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
     align-items: center;
-    width: 90vw;
-    height: 90vh;
+    width: 85vw;
     gap: 1vw;
     border-radius: 5px;
     animation: slideUpAnimation 1s ease-out;
@@ -14,9 +16,8 @@
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
   }
   
   .cityInfo > h2 {
@@ -37,22 +38,29 @@
   }
   
   .weatherTable {
-    width: 90vw;
+    display: flex;
     height: 70vh;
-    padding-top: 5vw ;
+    width: 80vw;
+    padding-top: 5vw;
+    flex-direction: column;
   }
   
   .weatherTableRow {
     text-align: center;
   }
   
+  .trHead {
+    display: flex;
+    justify-content: space-evenly;
+}
+
   td {
     width: 15vw;
     font-size: 3vw;
   }
   
   th {
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     padding: 1vw;
   }
   
@@ -69,8 +77,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    gap: 4vw;
-    width: 90vw;
+    width: 80vw;
     height: 5vh;
     border-radius: 5px;
     padding: 2vw 0;
@@ -86,7 +93,7 @@
   }
   
   .iconAdditionalDataContainer {
-    width: 5vw;
+    width: 2vw;
     height: auto;
     display: flex;
   }
@@ -131,8 +138,13 @@
   @media screen and (min-width: 1023px) {
     .ForecastCardContainer {
       width: 70vw;
-      height: 100vw;
       justify-content: flex-start;
+    }
+    .ForecastCardContainer>.cityInfo {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 1vw;
     }
   
     .cityInfo > h2 {
@@ -153,19 +165,23 @@
       padding-top: 0;
     }
   
-    tr:hover {
-      background-color: rgba(255, 255, 252, 0.3);
+    .trHead {
+        display: flex;
+        justify-content: space-evenly;
     }
   
     th {
-      font-size: 1.5vw;
-      padding: 1vw;
+      font-size: 1.7vw;
+      padding: 1.5vw;
+      margin-left: 1vw;
     }
     td {
       font-size: 1.2vw;
     }
   
     .additionalInfo {
+        display: flex;
+        justify-content: flex-start;
       width: 70vw;
     }
   

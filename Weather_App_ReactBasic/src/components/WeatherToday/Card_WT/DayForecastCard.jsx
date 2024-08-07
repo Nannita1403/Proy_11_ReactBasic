@@ -111,7 +111,8 @@ const DayForecastCard = ({ loading, forecast }) => {
   }
 
   return (
-    <div className='ForecastCardContainer'>
+    
+     <div className='ForecastCardContainer'>
       <div className='cityInfo'>
         <h2>
           Hourly forecast for{' '}
@@ -123,7 +124,7 @@ const DayForecastCard = ({ loading, forecast }) => {
       </div>
       <table className='weatherTable'>
         <thead>
-          <tr>
+          <tr className='trHead'>
             <th>Time</th>
             <th>Temperature</th>
             <th>Description</th>
@@ -209,6 +210,7 @@ const DayForecastCard = ({ loading, forecast }) => {
         </tbody>
       </table>
     </div>
+
   )
 }
 

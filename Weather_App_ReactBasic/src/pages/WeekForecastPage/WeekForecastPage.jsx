@@ -13,12 +13,15 @@ const WeekForecastPage = () => {
       <div className='weekImageContainer'>
         {currentCity.weather[0].icon.endsWith('n') ? (
           <img
-            src={NightMoon}
-            alt='NightMoon'
-            className='slide-in-blurred-right'
+          src={NightMoon}
+          alt='NightMoon'
+          className='slide-in-blurred-right'
           />
         ) : (
-          <img src={DaySun} alt='DaySun' className='slide-in-blurred-right' />
+          <img 
+          src={DaySun} 
+          alt='DaySun' 
+          className='slide-in-blurred-right' />
         )}
       </div>
       <WeekForecast />

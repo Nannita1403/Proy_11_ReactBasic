@@ -1,4 +1,4 @@
-.dayForecastContainer {
+.weatherTodayContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,6 +7,6 @@
     scrollbar-width: none;
     -webkit-overflow-scrolling: touch;
   }
-  .dayForecastContainer::-webkit-scrollbar-thumb {
+  .weatherTodayContainer::-webkit-scrollbar-thumb {
     background-color: transparent;
   }

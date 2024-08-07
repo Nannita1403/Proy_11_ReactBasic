@@ -52,7 +52,7 @@ const WeatherToday = () => {
   }, [fetchLocation])
 
   return (
-    <div className='dayForecastContainer'>
+    <div className='weatherTodayContainer'>
       <DayForecastCard
         showData={showData}
         loading={loading}
