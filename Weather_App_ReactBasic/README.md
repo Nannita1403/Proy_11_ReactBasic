@@ -1,8 +1,26 @@
-# React + Vite
+# Proyect 11 - React Basic
+- Chakra Weather - Weather App 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Descripcion:
+En este punto de React habremos podido ver el siguiente contenido:
+- JSX
+- Componentes
+- Props (enviar datos de un componente Padre a un componente Hijo)
+- Estados (useState())
+- useEffect() (para controlar efectos secundarios en nuestros componentes)
+- React Router
 
-Currently, two official plugins are available:
+Como siempre la temática será libre, podéis utilizar cualquier API que os guste, aquí tenéis un repositorio con muchas por si os puede ayudar a elegir en que basar vuestro proyecto: https://github.com/public-apis/public-apis
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para la entrega del proyecto bastará con el enlace a github del proyecto
+
+RECUERDA PONERLO EN PÚBLICO!
+
+# Requisitos
+
+- Responsive (como todos nuestros proyectos)
+- Buenas prácticas de HTML y CSS (tenemos que seguir cuidando los pequeños detalles)
+- Uso mínimo de 3 estados con un sentido lógico, no usarlos por usarlos
+- Uso mínimo de un useEffect
+- Uso mínimo de una petición a una API para recoger unos datos
+- Uso de React Router, declaración de rutas y acceder a ellas mediante Links, además mínimo una ruta permite recibir un parámetro, el componente renderizado por esa ruta utilizará el parámetro enviado con alguna finalidad
