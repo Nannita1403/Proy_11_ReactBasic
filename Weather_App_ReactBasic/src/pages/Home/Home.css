@@ -28,9 +28,6 @@
     align-items: center;
   }
   
-  .BGImageContainer {
-    display: none;
-  }
   
   @media screen and (min-width: 1023px) {
     .nowContainer {
@@ -38,11 +35,4 @@
       animation: slideUpAnimation 1s ease-out;
     }
   
-    .BGImageContainer {
-      display: block;
-      width: 22vw;
-      height: 80vh;
-      background-size: cover;
-      margin-left: auto;
-    }
   }

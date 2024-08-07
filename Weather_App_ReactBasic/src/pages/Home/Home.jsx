@@ -20,17 +20,9 @@ const Home = () => {
     <article className='currentWeatherArticle'>
       {location ? <CurrentWeatherOtherCity /> : <CurrentWeatherByLocation />}
     </article>
-    {currentCity ? (
-        <div
-          className='BGImageContainer'
-          style={{
-            backgroundImage: `url(${isDaytime ? DaySunImage : NightMoonImage})`
-          }}
-        ></div>
-      ) : (
-        <></>
-      )}
+    
   </div>
 )
 }
+
 export default Home

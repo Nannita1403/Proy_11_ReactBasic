@@ -17,10 +17,10 @@
 .ForecastWeekCardContainer {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
-  height: 82vh;
+  height: 80vh;
   gap: 2vw;
   border-radius: 5px;
   overflow: hidden;
@@ -129,6 +129,9 @@
 }
 
 @media (min-width: 1023px) {
+  .ForecastWeekCardContainer{
+    height: 70vh;
+  }
   .ForecastWeekCardContainer > h2 {
     font-size: 2vw;
   }
@@ -142,7 +145,7 @@
   }
 
   .weekForecastItem {
-    min-width: 12vw;
+    min-width: 25vw;
     width: 15vw;
     flex-direction: column;
   }
