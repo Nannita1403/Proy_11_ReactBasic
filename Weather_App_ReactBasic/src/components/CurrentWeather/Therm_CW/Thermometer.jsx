@@ -4,9 +4,9 @@ import './Thermometer.css'
 const Thermometer = ({ minTemperature, maxTemperature, feelsLike }) => {
   return (
     <div className='thermometer'>
-      <div className='maxTemp'></div>
+      {/*<div className='maxTemp'></div>
       <div className='feelsLike'></div>
-      <div className='minTemp'></div>
+      <div className='minTemp'></div>*/}
       <div className='temperature'>
         <span className='maxText'>
          MAX: <em>{maxTemperature}</em> °C
